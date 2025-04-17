@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <!-- Pinning version 7.0.0 of FluentAssertions due to legal issues with later versions -->
+    <PackageVersion Include="FluentAssertions" Version="[7.0.0]" />
+    <PackageVersion Include="JetBrains.Annotations" Version="2024.3.0" />
+    <PackageVersion Include="Microsoft.Playwright" Version="1.51.0" />
+    <PackageVersion Include="Microsoft.Playwright.NUnit" Version="1.51.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+    <PackageVersion Include="NUnit" Version="4.3.2" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
+    <PackageVersion Include="NSubstitute" Version="5.3.0" />
+    <PackageVersion Include="Shouldly" Version="4.3.0" />
+    <PackageVersion Include="System.Management" Version="9.0.4" />
+    <PackageVersion Include="System.Reactive" Version="6.0.1" />
+    <PackageVersion Include="Verify" Version="29.2.0" />
+    <PackageVersion Include="Verify.NUnit" Version="29.2.0" />
+  </ItemGroup>
+</Project>
